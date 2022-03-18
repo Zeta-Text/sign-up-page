@@ -8,7 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="heading">
+        The Odin Project
+    </div>
     <form action="example.com/path" method="post">
+        <div id="container">
+            <div id="pic">
+            
+                <img src="odin-lined.png" alt=”apicture”>
+            </div>
+        <div id="leftdiv">
+            <div id="textbox">
+                Welcome to this fake web service! Please do not enter any information below. Thank you! 
+            </div>
+        <div id="namecontainer">
         <div id="firstnamediv">
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" placeholder="John">
@@ -17,14 +30,18 @@
             <label for="last_name">Last Name:</label>
             <input type="text" id="last_name" placeholder="Smith">
         </div>
+        </div>
+        <div id="contactcontainer">
         <div id="emaildiv">
             <label for="user_email">Email Address:</label>
             <input type="email" id="user_email" name="email" placeholder="example@example.com">
         </div>
         <div id="phonediv">
             <label for="phone">Phone Number</label>
-            <input type="number" id="phone" name="phone">
+            <input type="tel" id="phone" name="phone">
         </div>
+        </div>
+        <div id="passwordcontainer">
         <div id="passworddiv">
             <label for="password">Password:</label>
             <input type="password" id="password" name="password">
@@ -34,6 +51,16 @@
             <input type="password" id="confirm_password" name="confirm_password">
 
         </div>
+        
+        </div>
+        
+        </div>
+        <div id="button">
+            <button type="button">Submit</button> 
+        </div>
+        
+        </div>
+        
     </form> 
 </body>
 </html>

@@ -1,3 +1,170 @@
+@import url(//db.onlinewebfonts.com/c/fd1ad3a0f95210975d2f5607501020b5?family=Norse);
+
+
 body {
-    background-color: cadetblue;
+    background-image: url("fjord.jpg");
+    background-color: #ccccccd5;
+    font-family: Tahoma, sans-serif;
+    height: 100%;
+   }
+
+#container {
+    width: 70%;
+    height: 88vh;
+    margin: auto;
+    background-color: rgba(3, 3, 3, 0.3);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+
+    
 }
+
+#namecontainer {
+    display: flex;
+    padding: 20px;
+    height: 15%;
+    
+}
+
+#first_name {
+    display: block;
+    border-radius: 4px;
+    margin-right: 35px; 
+}
+
+#last_name {
+    display: block;
+    border-radius: 4px;
+}
+
+#contactcontainer {
+    display: flex;
+    padding: 20px;
+    height: 15%;
+
+}
+
+#user_email {
+    display: block;
+    border-radius: 4px;
+    margin-right: 35px; 
+}
+
+#phone {
+    display: block;
+    border-radius: 4px;
+}
+
+#passwordcontainer {
+    display: flex;
+    padding: 20px;
+    height: 15%;
+}
+
+#password {
+    display: block;
+    border-radius: 4px;
+    margin-right: 35px; 
+}
+
+#confirm_password {
+    display: block;
+    border-radius: 4px;
+}
+
+#heading {
+    font-family: Norse;
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    background-color: rgba(243, 249, 250, 0.979);
+    justify-content: center;
+    font-size: 30px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: .5em;
+    font-weight: 1000;
+    box-shadow: 0 5px 5px -5px #333;
+    position: relative;
+}
+
+#heading:after {
+    position: absolute;
+    height: 1px;
+    background: rgb(5, 5, 5);
+    content: "";
+    width: 66%;
+    display: block;
+  }
+
+#pic {
+    background-color: rgba(79, 70, 107, 0.04);
+    float: right;
+    width: 50%;
+    height: 100%;
+    border-bottom-right-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+   
+}
+
+
+
+#leftdiv {
+    float: left;
+    width: 50%;
+    background-color: rgb(231, 229, 229);;
+    height: 70%;
+    box-shadow: 0 8px 6px -6px black;
+    position: relative;
+
+}
+
+#textbox {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+
+
+#button {
+    float: left;
+    clear: left;
+    background-color: rgba(243, 249, 250, 0.979);
+    width: 50%;
+    height: 30%;
+    border-bottom-left-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+button {
+    background-color: #2e2e30; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
+
